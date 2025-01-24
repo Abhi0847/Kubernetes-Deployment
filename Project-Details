@@ -1,4 +1,4 @@
- ##A comprehensive and robust CI/CD pipeline with a strong focus on quality, security, and monitoring for m board game application! Let me break it down and explain the different components of my project:
+ #A comprehensive and robust CI/CD pipeline with a strong focus on quality, security, and monitoring for m board game application! Let me break it down and explain the different components of my project:
 
 1. Jenkins for CI/CD
 Continuous Integration (CI) and Continuous Deployment (CD) are automated processes to ensure that new code changes are integrated, built, tested, and deployed in an efficient and consistent manner.
