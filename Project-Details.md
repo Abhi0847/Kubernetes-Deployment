@@ -30,12 +30,12 @@ Blackbox Exporter is a Prometheus exporter that allows you to monitor the availa
 It helps you monitor the external availability of your application from an external perspective, ensuring that users can access the board game application as expected and monitoring response times and errors.
 This adds another layer of monitoring, ensuring that not only the application itself but also the external user-facing endpoints are functioning properly.
 
-**Flow of the CI/CD Pipeline:
-1.Code Commit → Jenkins starts the build process.
-2.Code Analysis → SonarQube checks for code quality and applies the quality gate.
-3.Build Artifact → Jenkins builds the Docker image of your application.
-4.Vulnerability Scan → Trivy scans the Docker image for vulnerabilities.
-5.Upload Artifact → The Docker image is uploaded to Nexus Repository for versioning and storage.
-6.Deploy to Kubernetes → Jenkins deploys the application to the Kubernetes cluster.
-7.Monitoring → Prometheus starts collecting metrics from the application and infrastructure, which are visualized in Grafana dashboards.
-8.Traffic Monitoring → Blackbox Exporter monitors the application’s availability and traffic.
+**Flow of the CI/CD Pipeline:**
+Code Commit → Jenkins starts the build process.
+Code Analysis → SonarQube checks for code quality and applies the quality gate.
+Build Artifact → Jenkins builds the Docker image of your application.
+Vulnerability Scan → Trivy scans the Docker image for vulnerabilities.
+Upload Artifact → The Docker image is uploaded to Nexus Repository for versioning and storage.
+Deploy to Kubernetes → Jenkins deploys the application to the Kubernetes cluster.
+Monitoring → Prometheus starts collecting metrics from the application and infrastructure, which are visualized in Grafana dashboards.
+Traffic Monitoring → Blackbox Exporter monitors the application’s availability and traffic.
