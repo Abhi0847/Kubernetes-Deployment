@@ -39,3 +39,11 @@ Upload Artifact → The Docker image is uploaded to Nexus Repository for version
 Deploy to Kubernetes → Jenkins deploys the application to the Kubernetes cluster.
 Monitoring → Prometheus starts collecting metrics from the application and infrastructure, which are visualized in Grafana dashboards.
 Traffic Monitoring → Blackbox Exporter monitors the application’s availability and traffic.
+![Jenkins Pipeline](https://github.com/user-attachments/assets/89a12b06-b908-4780-b8df-a499ac44acef)
+![Grafana-visualization](https://github.com/user-attachments/assets/c368574d-3bba-4950-a6e4-933b5dd1873a)
+![Prometheus](https://github.com/user-attachments/assets/0e9bbcc5-d7e2-4b65-b76f-82b1a8df3242)
+![Boardgame-Application](https://github.com/user-attachments/assets/d5257537-f715-4c04-b1c3-ef880756815d)
+![Blackbox-Exporter Monitoring](https://github.com/user-attachments/assets/0c64164c-ed1a-4a88-a3c2-0f3c68143d55)
+
+
+
